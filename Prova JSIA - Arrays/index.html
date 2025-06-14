@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prova JSIA - Arrays</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerenciador de Lista de Compras</h1>
+
+  <div>
+    <input type="text" id="inputAdicionar" placeholder="Digite o item para adicionar" />
+    <button id="btnAdicionar">Adicionar Item</button>
+  </div>
+
+  <hr />
+
+  <div>
+    <input type="number" id="inputRemover" placeholder="Digite o índice para remover" min="0" />
+    <button id="btnRemover">Remover Item</button>
+  </div>
+
+  <hr />
+
+  <div>
+    <input type="number" id="inputAtualizarIndice" placeholder="Índice do item" min="0" />
+    <input type="text" id="inputAtualizarValor" placeholder="Novo valor do item" />
+    <button id="btnAtualizar">Atualizar Item</button>
+  </div>
+
+  <hr />
+
+  <div>
+    <button id="btnExibir">Exibir Lista</button>
+  </div>
+
+  <h2>Lista de Compras:</h2>
+  <ul id="listaCompras"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
